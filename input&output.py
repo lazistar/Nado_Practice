@@ -10,8 +10,8 @@
 
 # 은행 대기순번표
 # 001, 002, 003, ...
-# for num in range(1,21):
-#     print("대기번호 : " + str(num).zfill(3))
+for num in range(1,21):
+    print("대기번호 : " + str(num).zfill(3))
 
 # answer = input("아무 값이나 입력하세요 : ")
 answer = 10
