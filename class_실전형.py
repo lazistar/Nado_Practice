@@ -93,7 +93,7 @@ class Wraith(FlyableAttackUnit):
         self.clocked = False # 클로킹 모드 (해제 상태)
 
     def clocking(self):
-        if slef.clocked == True: # 클로킹 모드 -> 모드해제
+        if self.clocked == True: # 클로킹 모드 -> 모드해제
             print("{0} : 클로킹 모드 해제합니다.".format(self.name))
             self.clocked = False
         else: # 클로킹 모드 해제 -> 모드 설정
