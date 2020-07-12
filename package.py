@@ -16,3 +16,8 @@ from travel import *
 # trip_to = vietnam.VietnamPackage()
 trip_to = thailand.ThilandPackage()
 trip_to.detail()
+
+import inspect
+import random
+print(inspect.getfile(random))
+print(inspect.getfile(thailand))
